@@ -2,7 +2,7 @@
 #define PJCT_REPO1_TESTFOO_H
 namespace MainSpace{
   namespace Test{
-void PrintTest(std::uint8_t * IP);
+std::int8_t PrintTest(const std::uint8_t * IP);
   }//Test
 }//MainSpace
 #endif
